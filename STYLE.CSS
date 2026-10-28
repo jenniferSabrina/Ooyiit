@@ -1,0 +1,307 @@
+/*One of my challenges was building the reservation page. I used outside tools to help me develop my HTML and CSS. I understand what the code is doing, but I am still learning how to write some of it on my own.
+
+I enjoyed the creative side of web development more than I expected. I liked experimenting with different colours, layouts, fonts, and images. I also enjoyed adding my own artwork and seeing everything come together.
+
+I actually enjoyed troubleshooting my CSS. Sometimes changing one thing would affect something else, but I liked figuring out what was happening and how to fix it.
+
+One thing I was really happy with was adding my own text over the hero banner instead of putting the text directly into the image. I wanted the text to be readable by search engines for better SEO while still keeping the design I wanted.
+
+Would've loved to design the concept myself with the right software. Used AI for time constraint.*/
+body {
+    background-image: linear-gradient(to bottom, #f2e6d2, #d9c9b3, #c2ac95, #ab9079, #94745e, #896552, #7e5646, #73483c, #70413b, #6d3b3b, #68353c, #632f3d);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+
+
+/* TOP DIVIDER IMAGE */
+.divider-img {
+    display: block;
+    width: 180px;
+    height: auto;
+    margin: 10px auto;
+}
+
+/* HOOVES ON LEFT OF SCREEN */
+.hooves {
+    position: fixed;
+    top: 0;
+    left: 20px;
+    width: 120px;
+    height: 100vh;
+    background-image: url("./images/bison-hoves-3.png");
+    background-repeat: repeat-y;
+    background-size: 100px auto;
+
+}
+
+/* FOOD GALLERY */
+.food-gallery {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.food-gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* NAVIGATION WITH HOVER COLOUR */
+nav {
+    background-color: #632F3D;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+nav a {
+    color: #F2E6D2;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #9E4F35;
+
+}
+
+/* BANNER IMAGE WITH TEXT*/
+.text-over-image {
+    background-image:
+        url("./images/hero-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    max-width: 700px;
+    min-height: 200px;
+    margin: 40px auto;
+    padding: 40px;
+    text-align: center;
+}
+
+/* BANNER HEADING */
+.banner-text h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 62px;
+    color: #211C1A;
+}
+
+/* BANNER HEADING & PARAGRAPH SPACING */
+.banner-text h1,
+.banner-text p {
+    margin: 10px 0;
+}
+
+/* BANNER TEXT ALIGNMENT*/
+.banner-text {
+    text-align: center;
+    margin: 30px auto;
+}
+
+/* TEXT STYLING */
+
+.eat {
+    color: #632F3D;
+}
+
+.community {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+}
+
+.style {
+    margin: 30px auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* HEADINGS h2 - h3 - h4 */
+h2 {
+    font-size: 45px;
+    font-family: 'Playfair Display', Georgia, serif;
+    color: #3B2924;
+    text-align: center;
+    text-shadow:
+        0 0 5px #F2E6D2,
+        0 0 10px #F2E6D2;
+    margin-bottom: 20px;
+
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Playfair Display', Georgia, serif;
+    color: #3B2924;
+    text-align: center;
+    text-shadow:
+        0 0 5px #9E4F35,
+        0 0 10px #9E4F35;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: 'Playfair Display', Georgia, serif;
+    text-align: center;
+    
+}
+
+
+/* GENERAL IMAGE STYLING */
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* TEXTBOX WITH IMAGES */
+.textbox {
+    background-image: url("./images/Text-box2.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Playfair Display', Georgia, serif;
+    max-width: 700px;
+    padding: 30px;
+    text-align: center;
+    color: #211C1A;
+    box-shadow: 10px 10px 5px #9E4F35;
+    line-height: 1.2;
+    margin: 20px auto 50px;
+}
+
+/* TRANSPARENT TEXTBOX OVER IMAGE */
+.textcontent {
+    background-color: rgba(242, 230, 210, 0.75);
+    padding: 20px 30px;
+    border-radius: 4px;
+    line-height: 1.5;
+}
+
+
+/* MENU */
+.menu-image {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 40px auto;
+}
+
+/* DRINK MENU */
+.menu-image {
+    margin-top: -100px !important;
+}
+
+/* MENU LINKS */
+h3 a {
+    color: #3B2924;
+    text-decoration: none;
+}
+
+
+/* FOOTER */
+footer {
+    color: #F2E6D2;
+    text-align: center;
+     font-family: 'Playfair Display', Georgia, serif;
+}
+footer a {
+    color: #F2E6D2;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #9E4F35;
+}
+
+/* RESERVATIONS SECTION */
+.reservations {
+    background-image: url("./images/Text-box2.jpg");
+    background-size: cover;
+    background-position: center;
+max-width: 500px;
+margin: 30px auto;
+padding: 15px 10px;
+}
+
+/* RESERVATION CARD */
+.reservation-card {
+    background-color: rgba(242, 230, 210, 0.95);
+    max-width: 400px;
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 10px 10px 5px #9E4F35;
+}
+
+/* RESERVATION FORM */
+.reservation-card form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+/* FORM FIELDS */
+.reservation-card input,
+.reservation-card select,
+.reservation-card textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #76513E;
+    background-color: #F2E6D2;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+/* FORM LABELS */
+.reservation-card label {
+    color: #3B2924;
+}
+
+/* RESERVATION BUTTON */
+.reservation-card button {
+    background-color: #632F3D;
+    color: #F2E6D2;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+}
+
+
+/* GROUP LABELS AND INPUTS */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* SPAN BOTH COLUMNS */
+.full-width {
+    grid-column: 1 / -1;
+}
+
+/* BUTTON HOVER */
+.reservation-card button:hover {
+    background-color: #3B2924;
+}
+
+/* MOBILE LAYOUT */
+@media (max-width: 600px) {
+    .reservation-card form {
+        grid-template-columns: 1fr;
+    }
+
+    .reservation-card {
+        padding: 20px;
+    }
+}
+
+
